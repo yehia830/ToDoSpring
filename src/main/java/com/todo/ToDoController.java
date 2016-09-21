@@ -88,6 +88,12 @@ public class ToDoController {
         return "redirect:/";
     }
 
+    @RequestMapping(path = "/todos", method = RequestMethod.GET)
+    public String todos(Model model, HttpSession session) {
+        return "todos";
+    }
+
+
 
 
 
