@@ -2,9 +2,6 @@ package com.todo;
 
 import javax.persistence.*;
 
-/**
- * Created by jessicatracy on 9/15/16.
- */
 @Entity
 @Table(name = "todos")
 public class ToDo {
